@@ -11,6 +11,14 @@ package com.unida.ejercicio1;
 public class Ejercicio1 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Persona persona = new Persona();
+        
+        // Asignamos datos usando SET
+        persona.setNombre("Juan");
+        persona.setEdad(25);
+
+        // Obtenemos e imprimimos datos usando GET
+        System.out.println("Nombre: " + persona.getNombre());
+        System.out.println("Edad: " + persona.getEdad());
     }
 }
